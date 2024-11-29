@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+.cara{
+    width: 600px;
+    height: 800px;
+    background: pink;
+    border-radius: 200px 200px 300px 300px / 200px 200px 500px 500px ;
+    margin: 0 auto;
+
+}
+.cabell{
+    height: 200px;
+    background: rgb(51, 22, 2);
+    border-radius: 200px 200px 0px 0px;
+    box-shadow: inset 0 -50px 50px pink;
+    overflow: visible;
+}
+
+/* ------- NO TOCAR ----------- */
+.flocs {
+    width: 800px;
+    top: 100px;
+
+    overflow: visible;
+    z-index:99999;
+
+}
+
+.reflocs {
+    width: 150px;
+    margin: 1px;
+    height: 100px;
+    background: ye;
+    position: absolute;
+    z-index: 999999999999999;
+}
+
+.reflocs:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+.reflocs:nth-child(2) {
+    top: 0px;
+    left: 50px;
+}
+.reflocs:nth-child(3) {
+    top: 0px;
+    left: 100px;
+}
+
+.floquets {
+    background: violet;
+    top: 50px;
+}
+.floquets:nth-child(2n) {
+    width: 350px;
+    top: -80px;
+    z-index: ;
+}
+
+.floquets:nth-child(2n+1){
+    width: 350px;
+}
+
+.floqui {
+    width: 40px;
+    height: 80px;
+    background: transparent;
+    z-index: 200000;
+    border-radius: 0 0 0 100%;
+    box-shadow: inset 30px 0px 0 darkred;
+    display: inline-block;
+}
+
+.floquets:nth-child(2n+1) .floqui{
+    box-shadow: inset 30px 0px 0 rgb(51, 22, 2);
+}
+
+.f1 {
+    transform: scale(50%);
+}
+.f2 {
+    transform: scale(50%) rotate(15deg) translateX(-50px);
+}
+.f3 {
+    transform: scale(50%) rotate(0deg) translateX(-100px);
+}
+.f4 {
+    transform: scale(50%) rotate(10deg) translateX(-150px);
+}
+.f5 {
+    transform: scale(50%) rotate(0deg) translateX(-200px);
+}
+.f6 {
+    transform: scale(50%) rotate(0deg) translateX(-250px);
+}
+.f7 {
+    transform: scale(50%) rotate(0deg) translateX(-300px);
+}
+
+
+.
+/*----------- FINS AQUI -------------*/
+
+.cnjunt1 { 
+    width: 300px;
+    height: 400px;
+    background: brown;
+    margin: ;   
+    transform: rotate(-60deg);
+    border-radius: 50%;
+    top: -50px;
+    left: 50px;
+    /*
+position: absolute;
+width: 600px;
+height: 250px;
+background-color: rgb(126, 102, 77);
+margin-bottom: 300px;
+border-radius: 50% 50% 30% 30%;
+*/
+    
+}
+
+.floc {
+    float: left;
+    background: transparent;
+    box-shadow: -10px 0px 0 brown;
+    z-index: 50;
+    margin: -50px;
+    top: 100px;
+
+}
+
+.1 { /*   linear-gradient (black, maroon) */
+    width: 200px;
+    height: 200px;
+    border-radius: 0 300px;
+    transform: rotate(45deg);
+    left:-10px;
+}
+.2 { /*   linear-gradient (black, maroon) */
+    width: 150px;
+    height: 150px;
+    border-radius: 0 300px;
+    transform: rotate(45deg);
+    left: -50px;
+}
+.f3 {
+
+}
+    
+
+.front{
+    height:70px;
+    background: salmon;
+    text-align: center;
+    overflow: visible;
+}
+    .celles{
+        width: 180px;
+        background-color: rgb(41, 21, 5);
+        margin: 0px 20px;
+        top: 20px;
+    }
+    .celles.c1{
+        height: 150px;
+        clip-path: polygon(8% 23%, 55% 19%, 95% 36%, 46% 35%, 8% 43%);
+        transform: scaleX(-1);
+        display: inline-block;
+    }
+    .celles.c2{
+        display: inline-block;
+        height: 150px;
+        clip-path: polygon(8% 23%, 55% 19%, 95% 36%, 46% 35%, 8% 43%);
+    }
+.mirada{
+    height: 70px;
+    background: antiquewhite;
+    text-align: center;
+}
+
+    .mirada .ull {
+        height: 40px;
+        width: 120px;
+        background: white;
+        border-radius: 0% 70% 0% 70%;
+        display: inline-block;  
+        margin: 10px 30px;
+
+    }
+    .mirada .ull.dret{
+        border-radius: 70% 0% 70% 0%;
+
+
+    }
+    .sisi{
+        clip-path: polygon(12% 48%, 24% 41%, 38% 36%, 53% 34%, 66% 33%, 82% 33%, 97% 34%, 87% 49%, 75% 54%, 61% 57%, 49% 59%, 39% 59%, 28% 58%, 17% 56%);
+        height: 170px;
+        width: 170px;
+        background-color: aquamarine;
+    }
+    
+
+        .mirada .ull .pupila{
+            height: 40px;
+            width: 40px;
+            background: radial-gradient(rgb(103, 51, 9), rgb(38, 19, 9));
+            border-radius: 50%;
+            margin: 0 auto;
+
+
+        }
+            .mirada .ull .pupila .iris{
+                height: 20px;
+                width: 20px;
+                background: black;
+                border-radius: 50%;
+                margin: 0 auto;
+                top: 10px;
+            }
+.nas{
+    height: 80px;
+    width: 70px;
+    background-color: blue;
+    text-align: center;
+    margin-top: 0px;
+    left: 265px
+
+
+}
+.boca{
+    height: 100px;
+    background: s;
+
+}
+
+#dgracia {
+    transform: scale(100%);
+}
+
+.ull{
+    transform: scale(110%);
+}
